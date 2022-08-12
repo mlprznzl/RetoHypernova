@@ -13,7 +13,7 @@ Y luego, `git add` para agregar los archivos del proyecto.
 `git remote add origin https://github.com/mlprznzl/RetoHypernova.git`
 
 4. Previo a subir al repositorio remoto, se debe hacer commit de los archivos agregados y modificados:
-`git commit -m “First commit”`
+`git commit -m “First Commit”`
 
 5. Finalmente se hace push al repositorio remoto creado en GitHub:
 `git push -u -f origin main`
