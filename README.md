@@ -15,9 +15,13 @@ git add
 Para agregar los archivos del proyecto.
 
 3. Adicionalmente se creó el repositorio remoto “RetoHyperNova” en mi cuenta de GitHub desde el sitio Web. Este se especifica al repositorio local con el siguiente comando para dirigir los cambios al hacer commit:
+
 git remote add origin https://github.com/mlprznzl/RetoHyperNova.git 
 
 4. Previo a subir al repositorio remoto, se debe hacer commit de los archivos agregados y modificados:
-git commit -m “Primer commit”
+
+git commit -m “First commit”
+
 5. Finalmente se hace push al repositorio remoto creado en GitHub:
-git push -u -f origin master
+
+git push -u -f origin main
